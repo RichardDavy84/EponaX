@@ -16,8 +16,19 @@ header {
     align-items: center;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo {
     max-height: 50px;
+    margin-right: 10px;
+}
+
+.site-title {
+    font-size: 1.5em;
+    margin: 0;
 }
 
 .navbar ul {
@@ -61,6 +72,31 @@ ul {
     padding-left: 20px;
 }
 
+.team {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.member {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile-pic {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.achmore-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
 footer {
     background: #2a5934;
     color: #fff;
@@ -93,5 +129,9 @@ footer {
         margin-bottom: 10px;
         text-decoration: none;
     }
-}
 
+    .logo-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
